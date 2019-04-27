@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="../jquery-3.4.0.min.js"></script>
+</head>
+<body>
+     <div class="flags-container flex justify-center">
+     	<img class="language-image active" src="img/завантаження.jpg" data-lang="en">
+     	<img class="language-image " src="img/Ukraine.png" data-lang="ua">
+
+    </div>
+    <form action="">
+    	<p id="name">
+    		<span class="description">lol name</span>
+    		<input type="text" placeholder="Your name">
+    	</p>
+        <p id="gender">
+        	<span class="description">gender</span>
+        	<span id="male"> M</span><input type="radio" name="gender" value="male">
+        	<span id="male"> F</span><input type="radio" name="gender" value="female">
+        </p>
+    	<p id="country-wrapper">
+    		<span class="description">choose country</span>
+    		<select name="" id="country">
+  			<option>France</option>
+  			<option>USA</option>
+  			<option>Ukraine</option>
+  			<option>Russia</option>
+  			</select>
+    	</p>
+    	<p id="isShowBornCountry">
+    		<span class="description">Страна где вы проживаете и родились ?</span>
+    		<input type="Checkbox">
+    	</p>
+    	<p id="country-wrapper">
+    		<span class="description">Страна где тебя сотворили</span>
+    		<select name="" id="country">
+  			<option>Франция</option>
+  			<option>Омерика</option>
+  			<option>Украина</option>
+  			<option>Россия</option>
+  			</select>
+    	</p>
+    	<p id="email">
+    		<span class="description">Твой e-mail</span>
+    		<input type="text" placeholder="ВВеди e-mail">
+    	</p>
+    	<input type="submit" id="go" value="Send">
+
+    </form>
+	<script src="js/add.js"></script>
+</body>
+</html>
+	

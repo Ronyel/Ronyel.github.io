@@ -1,0 +1,24 @@
+.flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+    display: -ms-flex ;
+    display: -o-flex;
+    display: flex;
+ }
+.justify-center{
+      justify-content: center;
+}
+.flags-container img{
+	width: 100px;
+	height: 100px;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.falgs-container img:hover{
+	opacity: .7;
+    border: 2px solid red; 
+}
+.active{
+	border: 2px solid green !important;
+}
